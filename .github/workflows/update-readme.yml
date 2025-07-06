@@ -1,0 +1,85 @@
+name: 📄 Update README
+on:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Dry run: Run the workflow without making any changes"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '30 23,11 * * *'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      DRY_RUN: ${{ github.event.inputs.dry-run }}
+      PROJECT_NAME: jcdcdev.Umbraco.Core
+      README_FILEPATH: ./README.md
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Update readme
+        id: update-readme
+        shell: pwsh
+        env:
+          README_FILEPATH: ${{ env.README_FILEPATH }}
+          DRY_RUN: ${{ env.DRY_RUN }}
+          API_KEY: ${{ secrets.SECURITY_POLICY_API_KEY }}
+        run: |
+          # get the current SECURITY.md file if it exists
+          if (Test-Path $env:README_FILEPATH) {
+            $currentFile = Get-Content -Path $env:README_FILEPATH -Raw
+          } else {
+            $currentFile = ""
+          }
+  
+          $newContent = ""
+  
+          $baseUrl="https://content.jcdc.dev/api/profile/readme"
+          try{
+            # include api key header
+            $response = Invoke-RestMethod -Uri $baseUrl -Method Get -Headers @{
+              "Api-Key" = "$($env:API_KEY)"
+            } -ErrorAction Stop
+            if ($response -eq $null) {
+              Write-Host "No readme found for $baseUrl"
+              exit 0
+            }
+  
+            $newContent = $response
+          }
+          catch {
+            Write-Host "Failed to get readme from $baseUrl"
+            if($_.ErrorDetails.Message) {
+              Write-Host $_.ErrorDetails.Message
+            } else {
+                Write-Host $_
+            }
+            exit 0
+          }
+  
+          # check if the new content is different from the current content
+          if ($currentFile -eq $newContent) {
+            Write-Host "No changes to the readme"
+            exit 0
+          }
+  
+          $newContent | Set-Content -Path $env:README_FILEPATH -Force
+          Write-Host "Updated the readme file"
+          Write-Host "New content: $newContent"
+          if ($env:DRY_RUN -eq "true") {  
+            Write-Host "This is a dry run. No changes will be made."
+            return
+          } 
+  
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          write-host "Committing changes to $env:README_FILEPATH"
+          
+          # commit the changes
+          git add $env:README_FILEPATH
+          git commit -m "doc: Update README"
+          git push
