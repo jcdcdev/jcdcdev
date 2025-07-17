@@ -38,7 +38,7 @@ jobs:
   
           $newContent = ""
   
-          $baseUrl="https://content.jcdc.dev/api/profile/readme"
+          $baseUrl="https://cms.jcdc.dev/api/profile/readme"
           try{
             # include api key header
             $response = Invoke-RestMethod -Uri $baseUrl -Method Get -Headers @{
