@@ -54,8 +54,6 @@ new technologies and contributing to the open source community.
 | [Seed Storage](https://github.com/jcdcdev/jcdcdev.Eco.SeedStorage)                 | Improved seed storage for Eco.                                     | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/jcdcdev.Eco.SeedStorage?label&color=3c4834)         |
 | [Shelf Life](https://github.com/jcdcdev/jcdcdev.Eco.ShelfLife)                     | Extends the shelf life of products in Eco.                         | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/jcdcdev.Eco.ShelfLife?label&color=3c4834)           |
 | [Signs](https://github.com/jcdcdev/jcdcdev.Eco.Signs)                              | Customisable signs for Eco.                                        | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/jcdcdev.Eco.Signs?label&color=3c4834)               |
-| [Good Game Civics](https://github.com/jcdcdev/GoodGame.Eco.Civics)                 | Contains all of the civic items that help run Good Game Eco Sever. | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/GoodGame.Eco.Civics?label&color=3c4834)             |
-| [Calculator Extension](https://github.com/jcdcdev/jcdcdev.Eco.CalculatorExtension) | A browser extension for calculating fair Eco prices.               | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/jcdcdev.Eco.CalculatorExtension?label&color=3c4834) |
 
 ### 🎮 [Valheim]([Valheim](https://thunderstore.io/c/valheim/p/jcdcdev/)) mods
 
