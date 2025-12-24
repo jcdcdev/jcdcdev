@@ -1,15 +1,12 @@
 [![My Website](https://img.shields.io/badge/Blog-jcdc.dev-jcdcdev?style=flat&color=3c4834&logo=rss&logoColor=white)](https://jcdc.dev)
 [![Umbraco Marketplace](https://img.shields.io/badge/Umbraco%20Marketplace-%233544B1?style=flat&logo=umbraco)](https://marketplace.umbraco.com/author/jcdcdev)
 
-<a href="https://jcdc.dev">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=jcdcdev&theme=dark" />
-</a>
+I'm a passionate developer with a focus on .NET, Umbraco CMS, and creating efficient DevOps solutions. I love to explore
+new technologies and contributing to the open source community.
+
 <a href="https://jcdc.dev">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jcdcdev&layout=compact&langs_count=8&card_width=320&theme=dark&hide=hlsl,ShaderLab" />
 </a>
-
-I'm a passionate developer with a focus on .NET, Umbraco CMS, and creating efficient DevOps solutions. I love to explore
-new technologies and contributing to the open source community.
 
 ## My Projects
 ### 🦄 [Umbraco CMS](https://umbraco.com/products/umbraco-cms)
