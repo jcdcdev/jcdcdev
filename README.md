@@ -4,10 +4,6 @@
 I'm a passionate developer with a focus on .NET, Umbraco CMS, and creating efficient DevOps solutions. I love to explore
 new technologies and contributing to the open source community.
 
-<a href="https://jcdc.dev">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jcdcdev&layout=compact&langs_count=8&card_width=320&theme=dark&hide=hlsl,ShaderLab" />
-</a>
-
 ## My Projects
 ### 🦄 [Umbraco CMS](https://umbraco.com/products/umbraco-cms)
 
