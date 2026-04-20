@@ -1,9 +1,102 @@
-[![My Website](https://img.shields.io/badge/Blog-jcdc.dev-jcdcdev?style=flat&color=3c4834&logo=rss&logoColor=white)](https://jcdc.dev)
-[![Umbraco Marketplace](https://img.shields.io/badge/Umbraco%20Marketplace-%233544B1?style=flat&logo=umbraco)](https://marketplace.umbraco.com/author/jcdcdev)
+<div align="center">
+  <h1>Hi there! I'm James 👋</h1>
+  <h3>.NET Developer • Umbraco Specialist • DevOps Enthusiast</h3>
 
-I'm a passionate developer with a focus on .NET, Umbraco CMS, and creating efficient DevOps solutions. I love to explore
-new technologies and contributing to the open source community.
+  <p>I build open-source tools that make developers' lives easier. Currently focused on creating simple, elegant extensions for Umbraco CMS.</p>
 
+  <p><a href="https://jcdc.dev"><img src="https://img.shields.io/badge/Check_out_my_website-jcdc.dev-3c4834?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiIGNsYXNzPSJiaSBiaS1wYy1kaXNwbGF5IiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik04IDFhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MTRhMSAxIDAgMCAxLTEgMUg5YTEgMSAwIDAgMS0xLTF6bTEgMTMuNWEuNS41IDAgMSAwIDEgMCAuNS41IDAgMCAwLTEgMG0yIDBhLjUuNSAwIDEgMCAxIDAgLjUuNSAwIDAgMC0xIDBNOS41IDFhLjUuNSAwIDAgMCAwIDFoNWEuNS41IDAgMCAwIDAtMXpNOSAzLjVhLjUuNSAwIDAgMCAuNS41aDVhLjUuNSAwIDAgMCAwLTFoLTVhLjUuNSAwIDAgMC0uNS41TTEuNSAyQTEuNSAxLjUgMCAwIDAgMCAzLjV2N0ExLjUgMS41IDAgMCAwIDEuNSAxMkg2djJoLS41YS41LjUgMCAwIDAgMCAxSDd2LTRIMS41YS41LjUgMCAwIDEtLjUtLjV2LTdhLjUuNSAwIDAgMSAuNS0uNUg3VjJ6Ii8+Cjwvc3ZnPg==" alt="Website"></a></p>
+
+  <p><a href="https://marketplace.umbraco.com/author/jcdcdev"><img src="https://img.shields.io/badge/Umbraco_Marketplace-14_packages-3544B1?style=flat&logo=umbraco" alt="Umbraco Marketplace"></a></p>
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+### Umbraco CMS Packages
+
+| Project                                                                                           | Description                               | Website                                                            |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------ |
+| **[Simple Trees](https://github.com/jcdcdev/Umbraco.Community.SimpleTrees)**                      | Simplifies C# based Umbraco Trees         | [Docs](https://jcdc.dev/umbraco-packages/simple-trees)             |
+| **[Simple Dashboards](https://github.com/jcdcdev/Umbraco.Community.SimpleDashboards)**            | Simplifies C# based Umbraco Dashboards    | [Docs](https://jcdc.dev/umbraco-packages/simple-dashboards)        |
+| **[Back Office Organiser](https://github.com/jcdcdev/Umbraco.Community.BackOfficeOrganiser)**     | Keep your Backoffice organised!           | [Docs](https://jcdc.dev/umbraco-packages/back-office-organiser)    |
+| **[Extended Markdown Editor](https://github.com/jcdcdev/jcdcdev.Umbraco.ExtendedMarkdownEditor)** | Get more from the Umbraco Markdown editor | [Docs](https://jcdc.dev/umbraco-packages/extended-markdown-editor) |
+
+<p align="right"><a href="https://jcdc.dev/umbraco-packages"><sub>View all packages →</sub></a></p>
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+```mermaid
+mindmap
+  root((James))
+    Backend
+      ASP.NET Core
+      ASP.NET Framework
+      MS SQL
+      Umbraco CMS (7+)
+      Umbraco Forms
+      NuGet
+      Hangfire
+      UWP
+      MVC
+      Web API
+      RESTful
+    Frontend
+      Vanilla JS
+      TypeScript
+      Lit
+      SCSS
+      LESS
+      Bootstrap
+      Umbraco UI
+      Bulma
+      Tailwind
+      DaisyUI
+      AstroJS
+    Build Tools
+      MSBuild
+      Cake (C# Make)
+      Gulp
+      Webpack
+      Vite
+      Rollup
+    Tooling
+      Git
+      Visual Studio
+      JetBrains Rider
+      DotPeek
+      ReSharper
+      VS Code
+      KDiff3
+    Cloud
+      GitHub
+      Azure DevOps
+      Bitbucket
+      Amazon AWS
+      Microsoft Azure
+    Documentation
+      Feasibility studies
+      Technical investigations
+      Root Cause Analysis
+      Migration Plans
+      Deployment Plans
+      Test Plans
+      Rollback Plans
+    AI
+      GitHub Copilot
+      MS Copilot
+      Claude Code
+      GSD
+    Legacy
+      Angular JS
+      Web Forms
+      SOAP
+      jQuery
+```
+
+---
 ## My Projects
 ### 🦄 [Umbraco CMS](https://umbraco.com/products/umbraco-cms)
 
@@ -58,4 +151,11 @@ new technologies and contributing to the open source community.
 | Project                                                   | Description                     | Version                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Signs](https://github.com/jcdcdev/jcdcdev.Valheim.Signs) | Customisable signs for Valheim. | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/jcdcdev.Valheim.Signs?label&color=3c4834) [![Thunderstore Release](https://img.shields.io/badge/Install-Thunderstore-375a7f)](https://thunderstore.io/c/valheim/p/jcdcdev/Signs/) [![Nexus Mods Release](https://img.shields.io/badge/Install-Nexus%20Mods-b4762c)](https://www.nexusmods.com/valheim/mods/2881) |
+
+---
+
+<div align="center">
+  <p><strong>Thanks for visiting! 🙏</strong></p>
+  <p>Found something useful? Give it a ⭐ or drop me a message!</p>
+</div>
 
