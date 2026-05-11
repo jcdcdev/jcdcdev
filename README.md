@@ -136,6 +136,7 @@ mindmap
 | Project                                                                                   | Description                                                 | Version                                                                                                             |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [caddy-docker-proxy-cloudflare](https://github.com/jcdcdev/caddy-docker-proxy-cloudflare) | A Caddy proxy setup for Docker with Cloudflare integration. | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/caddy-docker-proxy-cloudflare?label&color=3c4834) |
+| [cloudflare-custom-list-updater](https://github.com/jcdcdev/cloudflare-custom-list-updater) | A .NET 10 Docker container that declaratively manages a Cloudflare custom list. | ![GitHub Release](https://img.shields.io/github/v/release/jcdcdev/cloudflare-custom-list-updater?label&color=3c4834) |
 
 ### 🎮 [Eco]([url](https://mod.io/g/eco/u/jcdcdev)) mods
 
